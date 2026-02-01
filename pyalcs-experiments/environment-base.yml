@@ -1,0 +1,15 @@
+name: pyalcs-experiments
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - mlflow>=1.7
+  - pandas>=1.0.0
+  - papermill>=2.0.0
+  - matplotlib>=3.1.1
+  - pip
+  - dill
+  - ipympl
+  - tqdm
+  - pip:
+    - gym==0.23.0
