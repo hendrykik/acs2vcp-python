@@ -1,0 +1,15 @@
+.cache
+.mypy_cache
+.pytest_cache
+.coverage
+.idea
+notebooks
+examples
+docs
+.editorconfig
+.gitignore
+.travis.yml
+LICENSE
+MANIFEST.in
+README.md
+**/__pycache__

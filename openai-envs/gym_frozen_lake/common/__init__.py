@@ -1,0 +1,4 @@
+LAKE_START = 'S'
+LAKE_PATH = 'F'
+LAKE_HOLE = 'H'
+LAKE_REWARD = 'G'
