@@ -1,50 +1,68 @@
-# Project Documentation
+# ACS2VCP Learning Classifier Systems
 
-## Quick Start Guide
-To get started with the project, follow these steps:
+## Quick Start
+
+To get started with the ACS2VCP project, follow these simple steps:
 1. Clone the repository:
    ```
    git clone https://github.com/hendrykik/acs2vcp-python.git
    ```
-2. Install dependencies:
+2. Navigate into the project directory:
+   ```
+   cd acs2vcp-python
+   ```
+3. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Run the application:
+4. Run the application:
    ```
    python main.py
    ```
 
-## Architecture Overview
-This project follows a modular architecture:
-- **Module1**: Description of Module1's purpose.
-- **Module2**: Description of Module2's purpose.
+## Architecture
+
+The ACS2VCP project is designed using a modular architecture that promotes easy extensibility and maintenance. The main components include:
+- **Classifier**: Responsible for making decisions based on input data.
+- **Environment**: Simulates the external conditions under which the classifier operates.
+- **Learning Mechanism**: Implements the learning algorithms that allow the classifier to improve over time.
 
 ## Usage Examples
-Here are some usage examples of the application:
-- Example 1:
-   ```python
-   from module import function
-   function(args)
-   ```
-- Example 2:
-   ```python
-   from module import another_function
-   another_function(args)
-   ```
+
+### Example 1: Simple Classification
+```python
+from acs2vcp import Classifier
+
+classifier = Classifier()
+result = classifier.classify(data)
+print(result)
+```
+
+### Example 2: Advanced Learning
+```python
+from acs2vcp import LearningMechanism
+
+learner = LearningMechanism()
+learner.train(data)
+```
 
 ## Supported Environments
-- Python 3.8 and above
-- Windows, macOS, and Linux
+
+The ACS2VCP project supports the following environments:
+- Python 3.7 or higher
+- Compatible with Linux, Windows, and macOS
 
 ## Advanced Features
-- Feature 1: Description of a specific feature.
-- Feature 2: Description of another feature.
+- **Adaptive Learning**: Adjusts learning rates based on performance metrics.
+- **Real-time Feedback**: Provides immediate performance feedback during operations.
+- **Visualization Tools**: Built-in tools for visualizing classifier performance over time.
 
 ## References
-- Official Documentation: [Link to docs](https://link-to-documentation.com)
-- GitHub Repository: [Link to repo](https://github.com/hendrykik/acs2vcp-python)
+- [Learning Classifier Systems](https://link-to-reference.com)
+- [Python for Data Science](https://link-to-another-reference.com)
 
 ## Dependencies
-- `dependency1`: Version
-- `dependency2`: Version
+- `numpy`
+- `pandas`
+- `matplotlib`
+- Additional libraries listed in requirements.txt
