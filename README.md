@@ -1,31 +1,50 @@
-# Anticipatory Learning Classifier 2 with Value Consistency Prioritization implemented in Python
+# Project Documentation
 
-Repository contains implementation of agents from the family of Learning Classifier Systems such as ACS or ACS2, enhanced with techniques like Experience Replay, Hindsight Experience Replay and a new technique - Value Consistency Prioritization.
+## Quick Start Guide
+To get started with the project, follow these steps:
+1. Clone the repository:
+   ```
+   git clone https://github.com/hendrykik/acs2vcp-python.git
+   ```
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```
+   python main.py
+   ```
 
-Value Consistency Prioritization is based on the paper by Claudia Russo, Daniela Barni, Ioana Zagrean and Francesca Danioni:
-https://www.mdpi.com/1210682
+## Architecture Overview
+This project follows a modular architecture:
+- **Module1**: Description of Module1's purpose.
+- **Module2**: Description of Module2's purpose.
 
-## Repository Structure
+## Usage Examples
+Here are some usage examples of the application:
+- Example 1:
+   ```python
+   from module import function
+   function(args)
+   ```
+- Example 2:
+   ```python
+   from module import another_function
+   another_function(args)
+   ```
 
-This repository contains:
-- **openai-envs** - Gymnasium library with added new environments ([Gymnasium](https://gymnasium.farama.org))
-- **pyalcs** - LCS agents with new ACS2VCP agent ([Documentation](https://pyalcs.readthedocs.io/en/latest/), [GitHub](https://github.com/ParrotPrediction/pyalcs))
-- **pyalcs-experiments** - Scripts and notebooks with experiments
+## Supported Environments
+- Python 3.8 and above
+- Windows, macOS, and Linux
 
-## Development
+## Advanced Features
+- Feature 1: Description of a specific feature.
+- Feature 2: Description of another feature.
 
-Create conda environment:
-```bash
-cd pyalcs-experiments
-conda env create --file environment-base.yml
-conda activate pyalcs-experiments
-conda env update --file environment-base.yml --prune
-```
+## References
+- Official Documentation: [Link to docs](https://link-to-documentation.com)
+- GitHub Repository: [Link to repo](https://github.com/hendrykik/acs2vcp-python)
 
-## Run Scripts
-
-```bash
-export PYTHONPATH=/path/to/pyalcs-experiments
-python ../pyalcs-experiments/scripts/ACS2VCP/run_acs2vcp_maze4.py
-```
-
+## Dependencies
+- `dependency1`: Version
+- `dependency2`: Version
