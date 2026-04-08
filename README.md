@@ -216,7 +216,7 @@ Custom metrics can be added via `user_metrics_collector_fcn` in the configuratio
 If you use this library, please cite this paper:
 
 ```text
-Jan Zemło and Olgierd Unold. 2026. Value Consistency Prioritization for Accelerating 
+Olgierd Unold and Jan Zemło. 2026. Value Consistency Prioritization for Accelerating 
 Knowledge Discovery in Sparse Reward Anticipatory Classifier Systems. In Proceedings 
 of the Genetic and Evolutionary Computation Conference Companion. ACM. 
 ```
